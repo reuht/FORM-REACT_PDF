@@ -1,15 +1,7 @@
 
 
 const AgencyInformation = ({ setData, data }) => {
-    const handlerDataAgency = (e) => {
-      setData({
-        ...data,
-        agencyInformation: {
-          ...data.agencyInformation,
-          [e.target.name]: e.target.value,
-        },
-      });
-    };
+   
 
     return (
       <>
