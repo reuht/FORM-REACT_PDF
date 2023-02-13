@@ -299,7 +299,7 @@ const Form = () => {
       e.preventDefault();
       const dataForm = JSON.stringify(data); 
       localStorage.setItem("Commercial-Auto-Quick", dataForm);
-      emailjs.send(process.env.REACT_APP_SERVICEID, process.env.REACT_APP_TEMPLETEID, data, process.env.REACT_APP_PUBLICKEYS)
+      emailjs.send('service_zzre5ee', 'template_ldsip8s', data, 'mISaDxfGGk_Px-Jk8')
       .then((result) => {
           alert(result.text);
       }, (error) => {
