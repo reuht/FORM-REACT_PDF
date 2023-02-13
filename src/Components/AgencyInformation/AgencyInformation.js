@@ -23,8 +23,8 @@ const AgencyInformation = ({ setData, data }) => {
               type="text"
               name="agencyName"
               placeholder="SOLANO CONSULTANTS"
-              onChange={handlerDataAgency}
-              required
+              value = "SOLANO CONSULTANTS"
+             
             />
           </div>
         </div>
@@ -36,9 +36,7 @@ const AgencyInformation = ({ setData, data }) => {
               className="input"
               type="text"
               name="contactPerson"
-              onChange={handlerDataAgency}
-              placeholder="ALAIN SOLANO"
-              required
+              value= "ALAIN SOLANO"
             />
           </div>
         </div>
@@ -50,9 +48,7 @@ const AgencyInformation = ({ setData, data }) => {
               className="input"
               type="email"
               name="email"
-              onChange={handlerDataAgency}
-              placeholder="as@solanoconsultants.com"
-              required
+              value="as@solanoconsultants.com"      
             />
             <span className="icon is-small is-left">
               <i className="fas fa-envelope"></i>
@@ -72,10 +68,9 @@ const AgencyInformation = ({ setData, data }) => {
               <input
                 className="control input"
                 type="tel"
+                value= "(601)770-9640"
                 placeholder="(601)770-9640"
-                name="phone"
-                onChange={handlerDataAgency}
-                required
+                
               />
             </div>
             </div>
@@ -86,9 +81,7 @@ const AgencyInformation = ({ setData, data }) => {
               <input
                 className="input"
                 type="text"
-                placeholder="(601)770-9682"
-                name="fax"
-                onChange={handlerDataAgency}
+                value="(601)770-9682"
               />
             </div>
           </div>
